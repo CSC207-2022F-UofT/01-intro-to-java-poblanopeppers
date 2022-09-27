@@ -147,7 +147,7 @@ public class Basics {
         // Fill in the rest of the body here
         String[] split_str = new to_split.split();
         for (int i = 1; i <= split_str.length; i++) {
-            ret.append(split_str.[i - 1].charAt(0))
+            ret.append(split_str[i - 1].charAt(0));
         }
         return ret.toString();
     }
@@ -175,10 +175,10 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        if (arr.length != 0 and arr.length != 1){
+        if (arr.length != 0 && arr.length != 1){
             for (int i = 1; i <= arr.length; i++){
                 if (i % 2 != 0){
-                    current_sum += arr[i]
+                    current_sum += arr[i];
                 }
             }
         }
